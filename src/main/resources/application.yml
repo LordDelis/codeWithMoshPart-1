@@ -6,7 +6,6 @@ spring:
     username: Delis
     password: P@ssword200
   jpa:
-    defer-datasource-initialization: true
     show-sql: true
     hibernate:
       ddl-auto: validate

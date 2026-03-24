@@ -5,6 +5,7 @@ import com.codewithmosh.store.entities.Profile;
 import com.codewithmosh.store.entities.Tag;
 import com.codewithmosh.store.entities.User;
 import com.codewithmosh.store.order.OrderService;
+import com.codewithmosh.store.repositories.UserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

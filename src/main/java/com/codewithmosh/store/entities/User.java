@@ -29,6 +29,9 @@ public class User {
     @NonNull
     private String password;
 
+    @NonNull
+    private String phoneNumber;
+
     // CREATING ONE-TO-MANY RELATIONSHIP
     // A user can have many addresses but each address should belong to only one user
     @OneToMany(mappedBy = "user")
